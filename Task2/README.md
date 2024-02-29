@@ -41,7 +41,11 @@
 - Accuracy of the network on the test set was 88%.
 - The confusion matrix revealed the distribution of correct and incorrect predictions across different clothing categories.
 
-  ![image](https://github.com/Hareb4/ai-datathon/assets/160310286/19cd298e-6d3e-4a7d-afdf-9f903a7c6514)
+  ![image](https://github.com/Hareb4/ai-datathon/assets/160310286/49c96141-9803-48fb-b827-537fae4398cd)
+
+  ![image](https://github.com/Hareb4/ai-datathon/assets/160310286/0bb0160f-71e4-40f7-ba96-717c110a1107)
+
+
 
 
 ### Code:
