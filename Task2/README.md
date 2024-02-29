@@ -8,7 +8,7 @@
 
 #### 1.2 Data Splitting:
 - The dataset was split into training and testing sets.
-- 80% of the data was allocated for training, while the remaining 20% was reserved for testing.
+- 85% of the data was allocated for training, while the remaining 15% was reserved for testing.
 
 ### Step 2: Model Definition and Training
 
@@ -38,5 +38,11 @@
 - This provides a visual representation of the model's performance.
 
 ### Results: 
-- Accuracy of the network on the test set was measured at 90%.
+- Accuracy of the network on the test set was 88%.
 - The confusion matrix revealed the distribution of correct and incorrect predictions across different clothing categories.
+
+  ![image](https://github.com/Hareb4/ai-datathon/assets/160310286/19cd298e-6d3e-4a7d-afdf-9f903a7c6514)
+
+
+### Code:
+- Colab Link: https://colab.research.google.com/drive/1ZjViBwQAPgacM46p-sfE18H0C59kvexG?usp=sharing
