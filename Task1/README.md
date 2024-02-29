@@ -55,3 +55,9 @@
 
 ### Results: 
 - Model Accuracy calculated as 90.48%
+- Aiming for 100% accuracy can indeed indicate overfitting, where the model memorizes the training dataset rather than learning the underlying patterns. As a result, the model may perform well on the training data but poorly on unseen or test data.
+  
+  ![image](https://github.com/Hareb4/ai-datathon/assets/160310286/cd627713-46fa-4e06-be04-ab60c46607e1)
+
+### Code :
+- Colab Link : https://colab.research.google.com/drive/15qEke19BfR3k7A-fMScoRF2gvJzq5tzt?usp=sharing
