@@ -53,6 +53,17 @@ def calculate_accuracy(y_true, y_pred):
 
 # Load data
 data = pd.read_csv(r"data_train.csv")
+# Check for missing values
+missing_values = data.isnull().any(axis=1)
+
+# Get the instances with missing values
+removed_instances = data[missing_values]
+
+if removed_instances.empty:
+    print("No missing values")
+else:
+    print("Instances with missing values removed:")
+    print(removed_instances)
 
 # Convert categorical target variable to numerical
 data['species'] = (data['species'] == 'Setosa').astype(int)
